@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageActivity">
+
+    <Button
+        android:id="@+id/buybutt"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="296dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Купить"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:typeface="normal"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textprev3"
+        app:strokeColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textprev2"
+        android:layout_width="334dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="38dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="КОЛЛЕКЦИЯ JORDAN PARIS SAINT-GERMAIN"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/promo" />
+
+    <ImageView
+        android:id="@+id/imageblack"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="174dp"
+        app:layout_constraintBottom_toTopOf="@+id/promo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_black" />
+
+    <ImageView
+        android:id="@+id/promo"
+        android:layout_width="367dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageblack"
+        app:srcCompat="@drawable/promo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/promoim"
+        android:layout_width="241dp"
+        android:layout_height="291dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="85dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dude_sitting" />
+
+    <TextView
+        android:id="@+id/textprev3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="110dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Всегда роскошные, всегда легендарные"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textprev2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
